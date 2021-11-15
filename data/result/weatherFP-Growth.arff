@@ -1,0 +1,27 @@
+@relation weather.symbolic-weka.filters.unsupervised.attribute.NominalToBinary-N-Rfirst-last
+
+@attribute outlook=sunny {f,t}
+@attribute outlook=overcast {f,t}
+@attribute outlook=rainy {f,t}
+@attribute temperature=hot {f,t}
+@attribute temperature=mild {f,t}
+@attribute temperature=cool {f,t}
+@attribute humidity {high,normal}
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+
+@data
+t,f,f,t,f,f,high,FALSE,no
+t,f,f,t,f,f,high,TRUE,no
+f,t,f,t,f,f,high,FALSE,yes
+f,f,t,f,t,f,high,FALSE,yes
+f,f,t,f,f,t,normal,FALSE,yes
+f,f,t,f,f,t,normal,TRUE,no
+f,t,f,f,f,t,normal,TRUE,yes
+t,f,f,f,t,f,high,FALSE,no
+t,f,f,f,f,t,normal,FALSE,yes
+f,f,t,f,t,f,normal,FALSE,yes
+t,f,f,f,t,f,normal,TRUE,yes
+f,t,f,f,t,f,high,TRUE,yes
+f,t,f,t,f,f,normal,FALSE,yes
+f,f,t,f,t,f,high,TRUE,no

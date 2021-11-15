@@ -1,0 +1,13 @@
+@relation iris-weka.filters.unsupervised.instance.RemovePercentage-P30.0-V-weka.filters.unsupervised.instance.RemovePercentage-P90.0
+
+@attribute sepallength numeric
+@attribute sepalwidth numeric
+@attribute petallength numeric
+@attribute petalwidth numeric
+@attribute class {Iris-setosa,Iris-versicolor,Iris-virginica}
+
+@data
+4.5,2.3,1.3,0.3,Iris-setosa
+4.4,3.2,1.3,0.2,Iris-setosa
+5,3.5,1.6,0.6,Iris-setosa
+5.1,3.8,1.9,0.4,Iris-setosa
